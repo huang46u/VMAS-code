@@ -3,21 +3,20 @@
 This repository provides the official implementation of the paper "Dynamic Skeletonization via Variational Medial Axis Sampling" (SIGGRAPH Asia 2024). Originally developed within the [`CGOGN_3`](https://github.com/cgogn/CGoGN_3) library, it has been streamlined to include only the essential files required for functionality.
 
 
-[Project Page](https://huang46u.github.io/VMAS/) | [Code](https://github.com/your-username/VMAS)
+[Project Page](https://huang46u.github.io/VMAS/) | [Code](https://github.com/huang46u/VMAS)
 
 ## Dependencies
-- `Eigen` 
-- `Boost`
-- `ImGUI`
+- Eigen
+- Glfw3
 
 ### Usage
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/VMAS.git
+   git clone git@github.com:huang46u/VMAS.git
    cd VMAS
    ```
 
-2. Build the project:
+2. Build the project with Cmake:
    ```sh
    mkdir build
    cd build
@@ -29,7 +28,7 @@ This repository provides the official implementation of the paper "Dynamic Skele
 
 Our algorithm extracts discretized medial axis (containing both curve skeletons and surface skeletons) from 3D models through an iterative sphere optimization process. The workflow is simple:
 
-1. When you are under the `build` directory, launch the program with:
+1. Suppose you are under the `build` directory, launch the program with:
    ```sh  
    ./stage/bin/Release/vmas.exe ../data/xxx.off
    ```
