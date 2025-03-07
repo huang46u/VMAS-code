@@ -1,6 +1,6 @@
 # Dynamic Skeletonization via Variational Medial Axis Sampling
 ![VMAS Header](doc/img/teaser.png)
-This repository provides the official implementation of the paper "Dynamic Skeletonization via Variational Medial Axis Sampling" (SIGGRAPH Asia 2024). Originally developed within the [`CGOGN_3`](https://github.com/cgogn/CGoGN_3) library, it has been streamlined to include only the essential files required for functionality.
+This repository provides the official implementation of the paper "Dynamic Skeletonization via Variational Medial Axis Sampling" (SIGGRAPH Asia 2024). Originally developed within the [CGOGN_3](https://github.com/cgogn/CGoGN_3) library, it has been streamlined to include only the essential files required for functionality.
 
 
 [Project Page](https://huang46u.github.io/VMAS/) | [Code](https://github.com/huang46u/VMAS)
@@ -50,7 +50,7 @@ Our algorithm extracts discretized medial axis (containing both curve skeletons 
 ### Interactive Refinement
 
 The interface allows direct manipulation of the skeleton:
-- Use `S` key to split the selected sphere
+- Use `S` key to split the sphere
 - Use `D` key to delete spheres
 
 ### Experiments Section
@@ -59,3 +59,23 @@ The **Experiments** section contains various testing parameters we used during o
 
 ## Demo
 ![example](doc/img/example.gif)
+
+## Citation
+```sh
+@inproceedings{10.1145/3680528.3687678,
+author = {Huang, Qijia and Kraemer, Pierre and Thery, Sylvain and Bechmann, Dominique},
+title = {Dynamic Skeletonization via Variational Medial Axis Sampling},
+year = {2024},
+isbn = {9798400711312},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3680528.3687678},
+doi = {10.1145/3680528.3687678},
+booktitle = {SIGGRAPH Asia 2024 Conference Papers},
+articleno = {66},
+numpages = {11},
+keywords = {Medial Axis, Skeleton, Variational approach},
+location = {Tokyo, Japan},
+series = {SA '24}
+}
+``` 
