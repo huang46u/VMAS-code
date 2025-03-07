@@ -12,8 +12,8 @@ This repository provides the official implementation of the paper "Dynamic Skele
 ## Usage
 1. Clone the repository:
    ```sh
-   git clone git@github.com:huang46u/VMAS.git
-   cd VMAS
+   git clone git@github.com:huang46u/VMAS-code.git
+   cd VMAS-code
    ```
 
 2. Build the project with Cmake:
