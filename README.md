@@ -9,7 +9,7 @@ This repository provides the official implementation of the paper "Dynamic Skele
 - Eigen
 - Glfw3
 
-### Usage
+## Usage
 1. Clone the repository:
    ```sh
    git clone git@github.com:huang46u/VMAS.git
@@ -26,8 +26,7 @@ This repository provides the official implementation of the paper "Dynamic Skele
 
 ## User Guide
 
-Our algorithm extracts discretized medial axis (containing both curve skeletons and surface skeletons) from 3D models through an iterative sphere optimization process. The workflow is simple:
-
+Our algorithm extracts discretized medial axis (containing both curve skeletons and surface skeletons) from a mesh or point cloud through an iterative sphere optimization process.
 1. Suppose you are under the `build` directory, launch the program with:
    ```sh  
    ./stage/bin/Release/vmas.exe ../data/xxx.off
@@ -55,7 +54,7 @@ The interface allows direct manipulation of the skeleton:
 
 ### Experiments Section
 
-The **Experiments** section contains various testing parameters we used during our research and algorithm development. We've kept these controls in the interface purely for fun - curious users can play with these settings to observe how different parameters affect the algorithm's behavior. 
+The **Experiments** section contains various testing parameters we used during our research and algorithm development - curious users can play with these settings to observe how different parameters affect the algorithm's behavior. Have fun! 
 
 ## Demo
 ![example](doc/img/example.gif)
